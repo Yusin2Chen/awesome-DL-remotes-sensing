@@ -1,6 +1,8 @@
 # awesome-DL-remotes-sensing
+
 Open-sources of  Deep Learning remote sensing
-Downloads
+
+Data
 2016 IEEE Data fusion context 
 Mou and Zhu, Spatiotemporal Scene Interpretation of Space Videos via Deep Neural Network And Tracklet Analysis, 2016 IEEE GRSS Data Fusion Contest. https://www.sipeo.bgu.tum.de/downloads/gt4dfc16video.rar
 J-SparseFI 
@@ -10,3 +12,10 @@ Wang et al., “Fusing Meter-Resolution 4-D InSAR Point Clouds and Optical Image
 Benchmark of streetview image of individual building instance 
 Kang et al., Building instance classification using street view images, ISPRS Journal of Photogrammetry and Remote Sensing, in press. 
 https://www.sipeo.bgu.tum.de/downloads/BIC_GSV.tar.gz
+
+Code
+SnapNet: point cloud semantization using deep segmentation network
+https://github.com/aboulch/snapnet
+ aerial/satellite semantic segmentation to PyTorch
+ https://github.com/nshaud/DeepNetsForEO
+ 
