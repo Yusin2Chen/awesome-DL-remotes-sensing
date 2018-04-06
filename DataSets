@@ -73,3 +73,6 @@ are reconstructed by SAR tomography using tens of TerraSAR-X high resolution spo
 images), and 3D optical point clouds (which are reconstructed by structure from motion
 followed by dense stereo matching using several UltraCam images with a ground spacing
 of 20cm). This dataset can be downloaded from https://www.sipeo.bgu.tum.de/downloads.
+
+A data set with hyper spectral data and methods to use this data for Machine Learning are provided.
+https://github.com/Ralf3/Remote-Sensing
