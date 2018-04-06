@@ -43,3 +43,13 @@ SnapNet: point cloud semantization using deep segmentation network
 https://github.com/aboulch/snapnet
  aerial/satellite semantic segmentation to PyTorch
  https://github.com/nshaud/DeepNetsForEO
+
+MARTA GANs: Unsupervised Representation Learning for Remote Sensing Image Classification 
+https://arxiv.org/abs/1612.08879v3
+https://github.com/BUPTLdy/MARTA-GAN
+
+Data and code for the paper "Remote Sensing-Based Measurement of Living Environment Deprivation - Improving Classical Approaches with Machine Learning", by Dani Arribas-Bel, Jorge Patiño and Juanca Duque
+https://github.com/darribas/satellite_led_liverpool
+
+
+
