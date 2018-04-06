@@ -1,0 +1,45 @@
+Showcasing
+
+Deconvolution network in MatConvNet. The ﬁrst example is released by the authors of [92]
+and corresponds to the architecture in Fig. 11. It exploits the MatConvNet library for
+MATLAB (http://www.vlfeat.org/matconvnet/). It provides a pre-trained network for both
+the Vaihingen and Potsdam datasets described above. The initial models are speciﬁc to
+remote sensing data and have been trained on each dataset separately. This example is
+mostly meant to show how to ﬁne-tune an existing model in MatConvNet by training few
+extra iteration to improve the model weights. It can, of course, be trained from scratch by
+reinitializing the weights randomly. A function to test the additional images of the datasets
+is also provided. Overall, it allows one to reproduce the results in [92] which are similar
+to the last column of Fig. 12. By removing the deconvolutional part of the network and
+adding a fully connected layer at the bottleneck, one can reproduce the CNN-PC model. If
+instead, one adds a spatial upsampling layer (e.g. a spatial interpolation of the bottleneck),
+one can also reproduce the results of the CNN-SPL model of Fig. 12. In both cases, the
+models must be re-trained (or at least heavily ﬁne tuned).
+The code can be downloaded from https://sites.google.com/site/michelevolpiresearch/codes/
+dense-labeling.
+
+ Fully convolutional (SegNet) architecture in Caff`e. The second example is released by the
+authors of [142] and exploits the Caff`e library (http://caffe.berkeleyvision.org/). The model
+exploits the SegNet architecture from Kendall et al. [181]. Authors release the pre-trained
+model to reproduce the results of [142] on the Vaihingen dataset. The network conﬁguration,
+database generation and training ﬁles are given in Python.
+The code can be downloaded from https://github.com/nshaud/DeepNetsForEO.
+
+AConvNet for SAR ATR in Caffe. The third example is released by the authors of [42]. It
+implements a CNN-based SAR target recognition and demonstrates via the MSTAR dataset.
+It includes the model conﬁguration ﬁle and the source code for training and testing, as well
+as a successfully trained CNN model.
+The code can be downloaded from https://github.com/fudanxu/MSTAR-AConvNet.
+
+
+ Residual Conv-Deconv Network in TensorFlow. The last example is released by the authors
+of [33, 34] and shows how to build up a residual Conv-Deconv network for unsupervised
+spectral-spatial feature learning of hyperspectral data. It exploits TensorFlow (https://www.
+tensorﬂow.org/) and Keras (https://keras.io/) libraries. One can transfer the trained network
+for their own classiﬁcation purpose by ﬁne-tuning on the target data sets or obtain “free”
+object detection using the learned ﬁlters in the ﬁrst residual block of the residual Conv-
+Deconv network.The code can be downloaded from https://www.sipeo.bgu.tum.de/downloads.
+
+SnapNet: point cloud semantization using deep segmentation network
+https://github.com/aboulch/snapnet
+ aerial/satellite semantic segmentation to PyTorch
+ https://github.com/nshaud/DeepNetsForEO
